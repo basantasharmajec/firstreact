@@ -1,0 +1,71 @@
+.pink{
+  color:pink;
+}
+body {
+  background: #e2e1e0;
+  text-align: center;
+}
+
+.card {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 190px;
+  margin: 1rem;
+  position: relative;
+  width: 500px;
+  
+}
+.align{
+  margin-top:30px;
+  font-size:30px;
+}
+.cards {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+.cssCircle {
+  -webkit-border-radius: 999px;
+  -moz-border-radius: 999px;
+  border-radius: 999px;
+  behavior: url(PIE.htc);
+  
+  width: 33px;
+  height: 33px;
+  padding: 0px;
+  margin:10px;
+  background: brown;
+  border: 1px solid brown;
+  color: white;
+  text-align: center;
+  -webkit-transition: background 0.2s linear;
+  -moz-transition: background 0.2s linear;
+  -ms-transition: background 0.2s linear;
+  -o-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+  transition: color 0.2s linear;
+  
+  font: 13px Arial, sans-serif
+}
+
+.cssCircle:hover {
+ 
+  cursor: pointer;
+}
+
+.minusSign {
+  line-height: 2.5em;
+  margin-bottom: 1px;
+   background:  blue;
+  border: 1px solid blue;
+}
+
+.plusSign {
+  line-height: 2.6em;
+}
+
+.minusSign:hover,
+.plusSign:hover {
+  color: white;
+}
