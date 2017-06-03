@@ -4,7 +4,8 @@
       "license": "MIT",
         
 	  "engines": {
-	      "node": "6.9.2"
+	      "node": "6.9.2",
+	      "npm": "3.10.9"
 	          
 		    },
 		      "scripts": {
@@ -12,7 +13,12 @@
 			      "start": "node server.js"
 			          
 				    },
-				      "private": true
+				      "private": true,
+				      "dependencies": {
+    
+    "express": "^4.15.3"
+    
+  }
 				        
 					  
 					  }
